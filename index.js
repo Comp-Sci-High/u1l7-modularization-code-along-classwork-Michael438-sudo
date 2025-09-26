@@ -121,7 +121,8 @@ let batman = {
 // Setp 4: Add the function's logic to return the a super hero object. 
 
 function Action(secretIdentity, city, affiliation, archNemesis, catchphrase){
-  return secretIdentity + " lives in " + city + " associates with "+ affiliation + " fights " + archNemesis + " and says "+ catchphrase}
+  return secretIdentity + " lives in " + city + " associates with "+ affiliation + " fights " + archNemesis + " and says "+ catchphrase
+}
 
 // Step 5: Call the function below for Black Panther and Batman
 console.log(Action("Bruce Wayne", "Gotham City", "Justice League", "Joker", "I am vengeance, I am the night, I am Batman"))
